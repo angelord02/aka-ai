@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKA Blockchain Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #1a1a2e; color: #e0e0e0; margin: 0; padding: 20px; }
+        h1 { color: #00d2ff; text-align: center; }
+        .container { max-width: 1000px; margin: auto; }
+        .card { background: #16213e; border-radius: 8px; padding: 15px; margin-bottom: 20px; border-left: 5px solid #00d2ff; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .block-header { font-weight: bold; color: #00d2ff; margin-bottom: 5px; }
+        .block-data { background: #0f3460; padding: 10px; border-radius: 4px; font-family: monospace; overflow-x: auto; }
+        .status { text-align: center; margin-bottom: 30px; }
+        .badge { display: inline-block; padding: 5px 10px; border-radius: 20px; font-size: 0.8em; font-weight: bold; background: #4ecca3; color: #1a1a2e; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AKA Industrial AI & Blockchain</h1>
+        <div class="status">
+            <span class="badge">Système Actif</span>
+            <span class="badge">IA Industrielle: En ligne</span>
+        </div>
+
+        <div id="blockchain-view">
+            <div class="card">
+                <div class="block-header">Bloc #0 [Génèse]</div>
+                <div class="block-data">"Genesis Block - Industrial AI Network"</div>
+            </div>
+            <div class="card">
+                <div class="block-header">Bloc #1 [APK Registration]</div>
+                <div class="block-data">{"name": "AKA Sport Pro", "status": "Hosted on Firebase", "industry": "Sport"}</div>
+            </div>
+            <div class="card">
+                <div class="block-header">Bloc #2 [Data Provenance]</div>
+                <div class="block-data">{"agent": "Sport_Agent_01", "classification": "SPORT_INTELLIGENCE"}</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

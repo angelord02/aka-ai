@@ -1,0 +1,4 @@
+User Request:
+- First APK: Sport industry, hosted on Firebase.
+- Requirement: Foundation of the blockchain with a web interface (dashboard) to follow progress via browser.
+- Requirement: Step-by-step instructions in French.
